@@ -1,6 +1,6 @@
 {
     "newsItems": [
-       {
+        {
             "date": "2020\/04\/21",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374044\/index.html",
             "text": "休業要請等に伴う『佐賀型 店舗休業支援金』について"
@@ -10,17 +10,17 @@
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373220\/index.html",
             "text": "佐賀県の新型コロナウイルス感染症の状況（事実と異なる情報や噂にご注意ください）"
         },
-       {
+        {
             "date": "2020\/04\/21",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373857\/index.html",
-            "text": "お知らせ）新型コロナウィルスの影響に伴うNPO法人の社員総会開催や事業報告書等の提出について"
+            "text": "（お知らせ）新型コロナウィルスの影響に伴うNPO法人の社員総会開催や事業報告書等の提出について"
         },
-       {
+        {
             "date": "2020\/04\/21",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374066\/index.html",
             "text": "臨時県議会で新型コロナウィルス感染症対策について知事が発言しました"
         },
-       {
+        {
             "date": "2020\/04\/21",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373761\/index.html",
             "text": "金融庁の取組みについて（新型コロナウイルス感染症の影響による資金繰り等でお困りの事業者の皆様へ）"
@@ -28,7 +28,12 @@
         {
             "date": "2020\/04\/21",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373950\/index.html",
-            "text": "建設業の許可申請等について（新型コロナウイルス感染症対策）"
+            "text": "建設業の許可申請等について(新型コロナウイルス感染症対策)"
+        },
+        {
+            "date": "2020\/04\/20",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374025\/index.html",
+            "text": "第16回新型コロナウィルス感染症対策本部会議を開催しました"
         },
         {
             "date": "2020\/04\/20",
@@ -49,11 +54,6 @@
             "date": "2020\/04\/20",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374008\/index.html",
             "text": "新型コロナウイルス感染拡大に伴うDV相談について"
-        },
-        {
-            "date": "2020\/04\/20",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373220\/index.html",
-            "text": "佐賀県の新型コロナウイルス感染症の状況（事実と異なる情報や噂にご注意ください）"
         },
         {
             "date": "2020\/04\/20",
@@ -84,11 +84,6 @@
             "date": "2020\/04\/17",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373987\/index.html",
             "text": "第15回佐賀県新型コロナウィルス感染症対策本部会議を開催しました"
-        },
-        {
-            "date": "2020\/04\/17",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373950\/index.html",
-            "text": "建設業の許可申請等について(新型コロナウイルス感染症対策)"
         },
         {
             "date": "2020\/04\/16",
@@ -154,11 +149,6 @@
             "date": "2020\/04\/08",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373881\/index.html",
             "text": "新型コロナウイルス感染症の影響により収入が著しく減少した県営住宅入居者に対する家賃減額措置について"
-        },
-        {
-            "date": "2020\/04\/08",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373857\/index.html",
-            "text": "（お知らせ）新型コロナウィルスの影響に伴うNPO法人の社員総会開催や事業報告書等の提出について"
         },
         {
             "date": "2020\/04\/08",
@@ -254,11 +244,6 @@
             "date": "2020\/03\/31",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373771\/index.html",
             "text": "第6回佐賀県新型コロナウイルス感染症対策本部会議を開催しました"
-        },
-        {
-            "date": "2020\/03\/31",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373761\/index.html",
-            "text": "お知らせ（新型コロナウイルス感染症の影響による資金繰り等でお困りの事業者の皆様へ）"
         }
     ]
 }
