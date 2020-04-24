@@ -57,4 +57,5 @@ $ docker-compose run --rm app yarn install
 
 ### 公開環境への反映
 
-`development` ブランチがアップデートされると、自動的に `dev-pages` ブランチにHTML類がbuildされます。そして、サーバ側でデプロイ後公開用サイト https://stopcovid19.code4saga.org/ が更新されます。
+`development` ブランチがアップデートされると、自動的に `dev-pages` ブランチにHTML類がbuildされます。
+そして、サーバ側でデプロイ後公開用サイト https://stopcovid19.code4saga.org/ が更新されます。
