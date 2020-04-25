@@ -1,19 +1,74 @@
 {
     "newsItems": [
         {
-            "date": "2020\/04\/21",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374044\/index.html",
-            "text": "休業要請等に伴う『佐賀型 店舗休業支援金』について"
-        },
-        {
-            "date": "2020\/04\/21",
+            "date": "2020\/04\/25",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373220\/index.html",
             "text": "佐賀県の新型コロナウイルス感染症の状況（事実と異なる情報や噂にご注意ください）"
         },
         {
-            "date": "2020\/04\/21",
+            "date": "2020\/04\/24",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374043\/index.html",
+            "text": "【令和2年4月24日更新】県民の皆さまへのお願い（佐賀県の緊急事態措置）"
+        },
+        {
+            "date": "2020\/04\/24",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374136\/index.html",
+            "text": "施設の使用停止等の要請"
+        },
+        {
+            "date": "2020\/04\/24",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374081\/index.html",
+            "text": "マスク、寄附金等を寄贈いただきました！"
+        },
+        {
+            "date": "2020\/04\/24",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374122\/index.html",
+            "text": "新型コロナウイルス感染症について知事臨時記者会見を開催しました（4月24日）"
+        },
+        {
+            "date": "2020\/04\/24",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374102\/index.html",
+            "text": "第17回佐賀県新型コロナウィルス感染症対策本部会議を開催しました"
+        },
+        {
+            "date": "2020\/04\/23",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374119\/index.html",
+            "text": "新型コロナウイルス感染症について知事緊急記者会見を開催しました（4月23日）"
+        },
+        {
+            "date": "2020\/04\/23",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373976\/index.html",
+            "text": "新型コロナウイルスの影響により納税が困難な方へ【徴収猶予の「特例制度」（案）のご案内】"
+        },
+        {
+            "date": "2020\/04\/23",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373318\/index.html",
+            "text": "新型コロナウイルス感染症の発生により影響を受けた農林漁業者向けの制度資金のご案内"
+        },
+        {
+            "date": "2020\/04\/22",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374044\/index.html",
+            "text": "休業要請等に伴う『佐賀型 店舗休業支援金』について（令和2年4月22日更新）"
+        },
+        {
+            "date": "2020\/04\/22",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374096\/index.html",
+            "text": "プロジェクトE（Education）～オンライン教育への挑戦～　スタート！"
+        },
+        {
+            "date": "2020\/04\/22",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374092\/index.html",
+            "text": "新型コロナウィルス感染症に関する記者レクを開催しました（4月22日）"
+        },
+        {
+            "date": "2020\/04\/22",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373857\/index.html",
-            "text": "（お知らせ）新型コロナウィルスの影響に伴うNPO法人の社員総会開催や事業報告書等の提出について"
+            "text": "【4月22日更新】（お知らせ）新型コロナウィルスの影響に伴うNPO法人の社員総会開催や事業報告書等の提出について"
+        },
+        {
+            "date": "2020\/04\/22",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374074\/index.html",
+            "text": "プロジェクトM（新型コロナウィルス対応医療提供体制強化本部の設置）"
         },
         {
             "date": "2020\/04\/21",
@@ -34,16 +89,6 @@
             "date": "2020\/04\/20",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374025\/index.html",
             "text": "第16回新型コロナウィルス感染症対策本部会議を開催しました"
-        },
-        {
-            "date": "2020\/04\/20",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374044\/index.html",
-            "text": "休業要請等に伴う『佐賀型 店舗休業支援金』について"
-        },
-        {
-            "date": "2020\/04\/20",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374043\/index.html",
-            "text": "県民の皆さまへのお願い（佐賀県の緊急事態措置）"
         },
         {
             "date": "2020\/04\/20",
@@ -157,7 +202,7 @@
         },
         {
             "date": "2020\/04\/08",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373868\/index.html",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373884\/index.html",
             "text": "新型コロナウィルス感染症に関する記者レクを開催しました（4月8日）"
         },
         {
@@ -181,11 +226,6 @@
             "text": "第11回佐賀県新型コロナウイルス感染症対策本部会議を開催しました"
         },
         {
-            "date": "2020\/04\/06",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373608\/index.html",
-            "text": "利子補給制度のご案内（新型コロナウイルス感染症資金繰り対策資金（経営改善資金））"
-        },
-        {
             "date": "2020\/04\/05",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373833\/index.html",
             "text": "新型コロナウイルス感染症に関する記者レクを開催しました（4月5日）"
@@ -194,11 +234,6 @@
             "date": "2020\/04\/04",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373832\/index.html",
             "text": "新型コロナウイルス感染症に関する記者レクを開催しました（4月4日）"
-        },
-        {
-            "date": "2020\/04\/03",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373209\/index.html",
-            "text": "教育活動の再開に関する対応について（新型コロナウイルス関係）"
         },
         {
             "date": "2020\/04\/03",
