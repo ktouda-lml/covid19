@@ -64,6 +64,17 @@
             </li>
           </ul>
         </li>
+        <li class="item hotel">
+          <div class="gutter">
+            <div class="box">
+              <span>{{ $t('ホテル宿泊') }}</span>
+              <span>
+                <b>{{ ホテル宿泊 }}</b>
+                <span class="unit">{{ $t('人') }}</span>
+              </span>
+            </div>
+          </div>
+        </li>
         <li class="item deceased">
           <div class="gutter">
             <div class="box">
@@ -86,6 +97,17 @@
             </div>
           </div>
         </li>
+        <li class="item outside">
+          <div class="gutter">
+            <div class="box">
+              <span>{{ $t('県外') }}</span>
+              <span>
+                <b>{{ 県外 }}</b>
+                <span class="unit">{{ $t('人') }}</span>
+              </span>
+            </div>
+          </div>
+        </li>
       </ul>
     </li>
   </ul>
@@ -101,8 +123,10 @@ export default {
     '入院中',
     '軽症中等症',
     '重症',
+    'ホテル宿泊',
     '死亡',
-    '退院'
+    '退院',
+    '県外'
   ],
   methods: {
     /** 桁数に応じて位置の調整をする */
@@ -133,10 +157,12 @@ export default {
       hospitalized,
       mild,
       critically,
+      hotel,
       deceased,
-      discharged
+      discharged,
+      outside
     ) {
-      const ariaLabel = `検査陽性者の状況: 検査実施人数は${inspected}人、うち累積の陽性者数は${positive}人です。入院中は${hospitalized}人で、うち軽症・中等症は${mild}人、また重症は${critically}人です。さらに死亡は${deceased}人、退院は${discharged}人です。`
+      const ariaLabel = `検査陽性者の状況: 検査実施人数は${inspected}人、うち累積の陽性者数は${positive}人です。入院中は${hospitalized}人で、うち軽症・中等症は${mild}人、また重症は${critically}人です。さらにホテル宿泊者は${hotel}人、死亡は${deceased}人、退院は${discharged}人、県外感染者は${outside}人です。`
       return ariaLabel
     }
   }
@@ -222,7 +248,7 @@ export default {
 .item.in-hospital {
   display: flex;
   justify-content: space-between;
-  width: calc(100% / 5 * 3);
+  width: calc(100% / 7 * 3);
   > .group {
     width: calc(100% / 3 * 2);
   }
@@ -235,19 +261,27 @@ export default {
 .item.serious {
   width: calc(100% / 2);
 }
+// ホテル宿泊者
+.item.hotel {
+  width: calc(100% / 7);
+}
 // 死亡
 .item.deceased {
-  width: calc(100% / 5);
+  width: calc(100% / 7);
 }
 // 退院
 .item.recovered {
-  width: calc(100% / 5);
+  width: calc(100% / 7);
+}
+// 県外
+.item.outside {
+  width: calc(100% / 7);
 }
 
 .item.positive > .gutter > .box::before,
 .item.in-hospital > .gutter > .box::before,
 .item.serious > .gutter > .box::before,
-.item.recovered > .gutter > .box::before {
+.item.outside > .gutter > .box::before {
   content: '';
   display: block;
   border: 3px solid $green-1;
@@ -265,7 +299,7 @@ export default {
   border-right: none;
 }
 .item.serious > .gutter > .box::before,
-.item.recovered > .gutter > .box::before {
+.item.outside > .gutter > .box::before {
   top: calc(-35px - 3px);
   right: -3px;
   border-left: none;
@@ -273,8 +307,8 @@ export default {
 .item.serious > .gutter > .box::before {
   width: 200%;
 }
-.item.recovered > .gutter > .box::before {
-  width: 520%;
+.item.outside > .gutter > .box::before {
+  width: 710%;
 }
 
 @function px2vw($px, $vw) {
@@ -305,7 +339,7 @@ export default {
   .item.positive > .gutter > .box::before,
   .item.in-hospital > .gutter > .box::before,
   .item.serious > .gutter > .box::before,
-  .item.recovered > .gutter > .box::before {
+  .item.outside > .gutter > .box::before {
     border-width: px2vw($bdw, $vw);
     height: px2vw($boxdiff - $bdw, $vw);
   }
@@ -316,7 +350,7 @@ export default {
     width: calc(100% + #{px2vw($bdw * 2, $vw)});
   }
   .item.serious > .gutter > .box::before,
-  .item.recovered > .gutter > .box::before {
+  .item.outside > .gutter > .box::before {
     top: px2vw(-$boxdiff - $bdw, $vw);
     right: px2vw(-$bdw, $vw);
   }
