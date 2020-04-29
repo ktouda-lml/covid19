@@ -1,3 +1,4 @@
+/* eslint-disable vue/require-prop-types */
 <template>
   <ul class="wrapper group">
     <li class="item checked">
