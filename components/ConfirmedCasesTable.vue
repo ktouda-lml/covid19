@@ -1,4 +1,3 @@
-/* eslint-disable vue/require-prop-types */
 <template>
   <ul class="wrapper group">
     <li class="item checked">
@@ -117,6 +116,7 @@
 <i18n src="./ConfirmedCasesTable.i18n.json"></i18n>
 
 <script>
+/* eslint-disable vue/prop-name-casing */
 export default {
   props: [
     '検査実施人数',
