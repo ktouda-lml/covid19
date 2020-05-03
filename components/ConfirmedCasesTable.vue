@@ -28,7 +28,7 @@
       </div>
       <ul class="group">
         <li class="item in-hospital">
-          <div class="gutter oneThird">
+          <div class="gutter">
             <div class="box">
               <span>{{ $t('入院中') }}</span>
               <span>
@@ -37,32 +37,6 @@
               </span>
             </div>
           </div>
-          <ul class="group">
-            <li class="item mild">
-              <div class="gutter">
-                <div class="box short">
-                  <!-- eslint-disable vue/no-v-html-->
-                  <span v-html="$t('軽症・<br />中等症')" />
-                  <!-- eslint-enable vue/no-v-html-->
-                  <span>
-                    <b>{{ 軽症中等症 }}</b>
-                    <span class="unit">{{ $t('人') }}</span>
-                  </span>
-                </div>
-              </div>
-            </li>
-            <li class="item serious">
-              <div class="gutter">
-                <div class="box short">
-                  <span>{{ $t('重症') }}</span>
-                  <span>
-                    <b>{{ 重症 }}</b>
-                    <span class="unit">{{ $t('人') }}</span>
-                  </span>
-                </div>
-              </div>
-            </li>
-          </ul>
         </li>
         <li class="item hotel">
           <div class="gutter">
@@ -123,8 +97,6 @@ export default {
     '検査実施人数',
     '陽性物数',
     '入院中',
-    '軽症中等症',
-    '重症',
     'ホテル宿泊',
     '死亡',
     '退院',
@@ -157,14 +129,12 @@ export default {
       inspected,
       positive,
       hospitalized,
-      mild,
-      critically,
       hotel,
       deceased,
       discharged,
       outside
     ) {
-      const ariaLabel = `検査陽性者の状況: 検査実施人数は${inspected}人、うち累積の陽性者数は${positive}人です。入院中は${hospitalized}人で、うち軽症・中等症は${mild}人、また重症は${critically}人です。さらにホテル宿泊者は${hotel}人、死亡は${deceased}人、退院は${discharged}人、県外感染者は${outside}人です。`
+      const ariaLabel = `検査陽性者の状況: 検査実施人数は${inspected}人、うち累積の陽性者数は${positive}人です。入院中は${hospitalized}人です。さらにホテル宿泊者は${hotel}人、死亡は${deceased}人、退院は${discharged}人、県外感染者は${outside}人です。`
       return ariaLabel
     }
   }
@@ -248,41 +218,27 @@ export default {
 }
 // 入院
 .item.in-hospital {
-  display: flex;
-  justify-content: space-between;
-  width: calc(100% / 7 * 3);
-  > .group {
-    width: calc(100% / 3 * 2);
-  }
+  width: calc(100% / 5);
 }
-// 軽症・中等症
-.item.mild {
-  width: calc(100% / 2);
-}
-// 重症
-.item.serious {
-  width: calc(100% / 2);
-}
+
 // ホテル宿泊者
 .item.hotel {
-  width: calc(100% / 7);
+  width: calc(100% / 5);
 }
 // 死亡
 .item.deceased {
-  width: calc(100% / 7);
+  width: calc(100% / 5);
 }
 // 退院
 .item.recovered {
-  width: calc(100% / 7);
+  width: calc(100% / 5);
 }
 // 県外
 .item.outside {
-  width: calc(100% / 7);
+  width: calc(100% / 5);
 }
 
 .item.positive > .gutter > .box::before,
-.item.in-hospital > .gutter > .box::before,
-.item.serious > .gutter > .box::before,
 .item.outside > .gutter > .box::before {
   content: '';
   display: block;
@@ -291,8 +247,7 @@ export default {
   position: absolute;
   height: 32px;
 }
-.item.positive > .gutter > .box::before,
-.item.in-hospital > .gutter > .box::before {
+.item.positive > .gutter > .box::before {
   border-right: none;
   top: -3px;
   right: calc(-100% - 3px - 3px);
@@ -300,17 +255,13 @@ export default {
   border-left: none;
   border-right: none;
 }
-.item.serious > .gutter > .box::before,
 .item.outside > .gutter > .box::before {
   top: calc(-35px - 3px);
   right: -3px;
   border-left: none;
 }
-.item.serious > .gutter > .box::before {
-  width: 200%;
-}
 .item.outside > .gutter > .box::before {
-  width: 710%;
+  width: 500%;
 }
 
 @function px2vw($px, $vw) {
@@ -339,19 +290,15 @@ export default {
     font-size: px2vw($fz, $vw);
   }
   .item.positive > .gutter > .box::before,
-  .item.in-hospital > .gutter > .box::before,
-  .item.serious > .gutter > .box::before,
   .item.outside > .gutter > .box::before {
     border-width: px2vw($bdw, $vw);
     height: px2vw($boxdiff - $bdw, $vw);
   }
-  .item.positive > .gutter > .box::before,
-  .item.in-hospital > .gutter > .box::before {
+  .item.positive > .gutter > .box::before {
     top: px2vw(-$bdw, $vw);
     right: calc(-100% - #{px2vw($bdw * 2, $vw)} + 0.3px);
     width: calc(100% + #{px2vw($bdw * 2, $vw)});
   }
-  .item.serious > .gutter > .box::before,
   .item.outside > .gutter > .box::before {
     top: px2vw(-$boxdiff - $bdw, $vw);
     right: px2vw(-$bdw, $vw);
