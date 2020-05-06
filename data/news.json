@@ -1,9 +1,29 @@
 {
     "newsItems": [
         {
-            "date": "2020\/05\/04",
+            "date": "2020\/05\/06",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374074\/index.html",
+            "text": "プロジェクトM（新型コロナに対応した医療提供体制の強化）"
+        },
+        {
+            "date": "2020\/05\/05",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373362\/index.html",
+            "text": "テレワークに関する相談窓口"
+        },
+        {
+            "date": "2020\/05\/05",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374231\/index.html",
+            "text": "新型コロナウイルス感染症について知事臨時記者会見を開催しました（5月5日）"
+        },
+        {
+            "date": "2020\/05\/05",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373220\/index.html",
             "text": "佐賀県の新型コロナウイルス感染症の状況（事実と異なる情報や噂にご注意ください）"
+        },
+        {
+            "date": "2020\/05\/05",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373209\/index.html",
+            "text": "教育活動の再開に関する対応について（新型コロナウイルス関係）"
         },
         {
             "date": "2020\/05\/04",
@@ -186,11 +206,6 @@
             "text": "【4月22日更新】（お知らせ）新型コロナウィルスの影響に伴うNPO法人の社員総会開催や事業報告書等の提出について"
         },
         {
-            "date": "2020\/04\/22",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374074\/index.html",
-            "text": "プロジェクトM（新型コロナウィルス対応医療提供体制強化本部の設置）"
-        },
-        {
             "date": "2020\/04\/21",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374066\/index.html",
             "text": "臨時県議会で新型コロナウィルス感染症対策について知事が発言しました"
@@ -314,11 +329,6 @@
             "date": "2020\/04\/08",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373884\/index.html",
             "text": "新型コロナウィルス感染症に関する記者レクを開催しました（4月8日）"
-        },
-        {
-            "date": "2020\/04\/07",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373362\/index.html",
-            "text": "テレワークに関する相談窓口"
         },
         {
             "date": "2020\/04\/07",
