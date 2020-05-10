@@ -41,9 +41,9 @@
         <li class="item hotel">
           <div class="gutter">
             <div class="box">
-              <span>{{ $t('ホテル宿泊') }}</span>
+              <span>{{ $t('宿泊施設療養') }}</span>
               <span>
-                <b>{{ ホテル宿泊 }}</b>
+                <b>{{ 宿泊施設療養 }}</b>
                 <span class="unit">{{ $t('人') }}</span>
               </span>
             </div>
@@ -97,7 +97,7 @@ export default {
     '検査実施人数',
     '陽性物数',
     '入院中',
-    'ホテル宿泊',
+    '宿泊施設療養',
     '死亡',
     '退院',
     '県外'
@@ -134,7 +134,7 @@ export default {
       discharged,
       outside
     ) {
-      const ariaLabel = `検査陽性者の状況: 検査実施人数は${inspected}人、うち累積の陽性者数は${positive}人です。入院中は${hospitalized}人です。さらにホテル宿泊者は${hotel}人、死亡は${deceased}人、退院は${discharged}人、県外感染者は${outside}人です。`
+      const ariaLabel = `検査陽性者の状況: 検査実施人数は${inspected}人、うち累積の陽性者数は${positive}人です。入院中は${hospitalized}人です。さらに宿泊施設療養者は${hotel}人、死亡は${deceased}人、退院は${discharged}人、県外感染者は${outside}人です。`
       return ariaLabel
     }
   }
@@ -221,7 +221,7 @@ export default {
   width: calc(100% / 5);
 }
 
-// ホテル宿泊者
+// 宿泊施設療養者
 .item.hotel {
   width: calc(100% / 5);
 }
