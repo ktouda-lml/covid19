@@ -34,8 +34,8 @@ type DataType = {
 type ConfirmedCasesType = {
   検査実施人数: number
   陽性物数: number
+  入院中: number
   宿泊施設療養: number
-  ホテル宿泊: number
   退院: number
   死亡: number
   県外: number
