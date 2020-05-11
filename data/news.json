@@ -1,19 +1,49 @@
 {
     "newsItems": [
         {
-            "date": "2020\/05\/10",
+            "date": "2020\/05\/11",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374197\/index.html",
+            "text": "特別定額給付金（国による一律10万円定額給付）に関するお知らせ"
+        },
+        {
+            "date": "2020\/05\/11",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373220\/index.html",
             "text": "佐賀県の新型コロナウイルス感染症の状況"
+        },
+        {
+            "date": "2020\/05\/11",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373318\/index.html",
+            "text": "新型コロナウイルス感染症の発生により影響を受けた農林漁業者向けの制度資金のご案内"
+        },
+        {
+            "date": "2020\/05\/11",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373804\/index.html",
+            "text": "新型コロナウィルス感染症の影響による休業や失業等により生活資金でお悩みの方々に向けた生活福祉資金の特例貸付について"
+        },
+        {
+            "date": "2020\/05\/11",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374225\/index.html",
+            "text": "佐賀型チャレンジ事業者持続化支援金について"
+        },
+        {
+            "date": "2020\/05\/11",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374269\/index.html",
+            "text": "「コロナと戦う医療にエールを！緊急支援募金」にご協力ください"
+        },
+        {
+            "date": "2020\/05\/11",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374232\/index.html",
+            "text": "【5月11日更新】県民の皆さまへのお願い（佐賀県の緊急事態措置）"
+        },
+        {
+            "date": "2020\/05\/11",
+            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373208\/index.html",
+            "text": "新型コロナウイルス感染症に関する相談窓口・基本情報"
         },
         {
             "date": "2020\/05\/09",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374238\/index.html",
             "text": "第22回佐賀県新型コロナウィルス感染症対策本部会議を開催しました"
-        },
-        {
-            "date": "2020\/05\/08",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374225\/index.html",
-            "text": "佐賀型チャレンジ事業者持続化支援金について"
         },
         {
             "date": "2020\/05\/08",
@@ -32,23 +62,8 @@
         },
         {
             "date": "2020\/05\/08",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373208\/index.html",
-            "text": "新型コロナウイルス感染症に関する相談窓口・基本情報"
-        },
-        {
-            "date": "2020\/05\/08",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374269\/index.html",
-            "text": "「コロナと戦う医療にエールを！緊急支援募金」にご協力ください"
-        },
-        {
-            "date": "2020\/05\/08",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373881\/index.html",
             "text": "新型コロナウイルス感染症の影響により収入が著しく減少した方へ県営住宅についてのご案内"
-        },
-        {
-            "date": "2020\/05\/08",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374232\/index.html",
-            "text": "【5月8日更新】県民の皆さまへのお願い（佐賀県の緊急事態措置）"
         },
         {
             "date": "2020\/05\/07",
@@ -69,11 +84,6 @@
             "date": "2020\/05\/05",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374231\/index.html",
             "text": "新型コロナウイルス感染症について知事臨時記者会見を開催しました（5月5日）"
-        },
-        {
-            "date": "2020\/05\/05",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373220\/index.html",
-            "text": "佐賀県の新型コロナウイルス感染症の状況（事実と異なる情報や噂にご注意ください）"
         },
         {
             "date": "2020\/05\/05",
@@ -147,18 +157,8 @@
         },
         {
             "date": "2020\/04\/30",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373804\/index.html",
-            "text": "新型コロナウィルス感染症の影響による休業や失業等により生活資金でお悩みの方々に向けた生活福祉資金の特例貸付について"
-        },
-        {
-            "date": "2020\/04\/30",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373608\/index.html",
             "text": "利子補給制度のご案内（新型コロナウイルス感染症資金繰り対策資金（経営改善資金））"
-        },
-        {
-            "date": "2020\/04\/30",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00374197\/index.html",
-            "text": "特別定額給付金（国による一律10万円定額給付）に関するお知らせ"
         },
         {
             "date": "2020\/04\/29",
@@ -239,11 +239,6 @@
             "date": "2020\/04\/23",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373976\/index.html",
             "text": "新型コロナウイルスの影響により納税が困難な方へ【徴収猶予の「特例制度」（案）のご案内】"
-        },
-        {
-            "date": "2020\/04\/23",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373318\/index.html",
-            "text": "新型コロナウイルス感染症の発生により影響を受けた農林漁業者向けの制度資金のご案内"
         },
         {
             "date": "2020\/04\/22",
@@ -329,11 +324,6 @@
             "date": "2020\/04\/14",
             "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373490\/index.html",
             "text": "新型コロナウィルス感染症に関連する人権の配慮について"
-        },
-        {
-            "date": "2020\/04\/14",
-            "url": "https:\/\/www.pref.saga.lg.jp\/kiji00373804\/index.html",
-            "text": "新型コロナウィルス感染症の影響による休業や失業等により生活資金でお悩みの方々に向けた生活福祉資金の特例貸付について"
         },
         {
             "date": "2020\/04\/13",
